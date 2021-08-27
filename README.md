@@ -24,6 +24,14 @@ or load it dynamically from JavaScript
 </script>
 ```
 
+or lazy load the CSS
+
+```html
+<link rel="preload" href="https://unpkg.com/apis-font/fonts/font.css" as="style">
+<link rel="stylesheet" href="https://unpkg.com/apis-font/fonts/font.css" media="print" onload="this.media='all'">
+```
+
+
 apply the font in CSS
 
 ```css
