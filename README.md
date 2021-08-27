@@ -51,22 +51,23 @@ Use the font
 ```
 
 
-## Main font from npm
+## Font from npm
 
 ```bash
 npm install apis-font # yarn add apis-font
 ```
 
-* the files are in node_modules/apis-font/fonts
+* The files are in node_modules/apis-font/fonts
 
 
-Load the font by inluding this in html
+For quick prototyping, load the font by inluding this in HTML.
 
 ```html
 <link rel="stylesheet" 
       href="node_modules/apis-font/fonts/font.css">
 ```
 
+Alternatively copy the files to a folder outside node_modules.
 
 ## More
 
