@@ -9,4 +9,4 @@
       link.media = "all";
       head.appendChild(link);
     }
-  })("dynamically-loaded-apis-font", "https://unpkg.com/apis-font/apis/font.css");
+  })("dynamically-loaded-apis-font", "https://unpkg.com/apis-font/fonts/font.css");
