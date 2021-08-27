@@ -1,15 +1,15 @@
 # Apis font
 
-## main font from CDN
+## Load font from CDN
 
-load the font by inluding this in html
+load the font by inluding this in HTML
 
 ```html
  <link rel="stylesheet" 
        href="https://unpkg.com/apis-font/fonts/font.css">
 ```
 
-or import it from css
+or import it from CSS
 
 ```html
 <style>
@@ -17,14 +17,14 @@ or import it from css
 </style>
 ```
 
-or load it dynamically from javascript
+or load it dynamically from JavaScript
 ```html
 <script 
   src="https://unpkg.com/apis-font/fonts/font.js">
 </script>
 ```
 
-apply the font in css
+apply the font in CSS
 
 ```css
 body {
@@ -41,22 +41,26 @@ body {
 }
 ```
 
-use the font
+Use the font
 
 ```html
 <p>this is a normal font</p>
 <p class="font-bold">this is a bold font</p>
-<p class="font-medium">this is a light font</p>
-<p class="font-italic">this is a italic style</p>
+<p class="font-medium">this is a medium font</p>
+<p class="font-italic">this is an italic style</p>
 ```
 
 
-## main font from npm
+## Main font from npm
 
-* npm install apis-font
+```bash
+npm install apis-font # yarn add apis-font
+```
+
 * the files are in node_modules/apis-font/fonts
 
-load the font by inluding this in html
+
+Load the font by inluding this in html
 
 ```html
 <link rel="stylesheet" 
@@ -64,7 +68,7 @@ load the font by inluding this in html
 ```
 
 
-## more
+## More
 
 To see all the available CDN files go to 
 
