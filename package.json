@@ -1,0 +1,23 @@
+{
+  "name": "apis-font",
+  "version": "0.0.1",
+  "description": "Apis font",
+  "main": "index.js",
+  "files": [
+		"apis"
+	],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kunukn/apis-font.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kunukn/apis-font/issues"
+  },
+  "homepage": "https://github.com/kunukn/apis-font#readme"
+}
