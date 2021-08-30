@@ -70,7 +70,7 @@ Use the font
 npm install apis-font # yarn add apis-font
 ```
 
-- The files are in node_modules/apis-font/fonts
+- The files are in `node_modules/apis-font/fonts`
 
 For quick prototyping, load the font by inluding this in HTML.
 
