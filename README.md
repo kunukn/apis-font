@@ -5,8 +5,7 @@
 load the font by inluding this in HTML
 
 ```html
- <link rel="stylesheet" 
-       href="https://unpkg.com/apis-font/fonts/font.css">
+<link rel="stylesheet" href="https://unpkg.com/apis-font/fonts/font.css" />
 ```
 
 or import it from CSS
@@ -18,19 +17,26 @@ or import it from CSS
 ```
 
 or load it dynamically from JavaScript
+
 ```html
-<script 
-  src="https://unpkg.com/apis-font/fonts/font.js">
-</script>
+<script src="https://unpkg.com/apis-font/fonts/font.js"></script>
 ```
 
 or lazy load the CSS
 
 ```html
-<link rel="preload" href="https://unpkg.com/apis-font/fonts/font.css" as="style">
-<link rel="stylesheet" href="https://unpkg.com/apis-font/fonts/font.css" media="print" onload="this.media='all'">
+<link
+  rel="preload"
+  href="https://unpkg.com/apis-font/fonts/font.css"
+  as="style"
+/>
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/apis-font/fonts/font.css"
+  media="print"
+  onload="this.media='all'"
+/>
 ```
-
 
 apply the font in CSS
 
@@ -58,27 +64,24 @@ Use the font
 <p class="font-italic">this is an italic style</p>
 ```
 
-
 ## Font from npm
 
 ```bash
 npm install apis-font # yarn add apis-font
 ```
 
-* The files are in node_modules/apis-font/fonts
-
+- The files are in node_modules/apis-font/fonts
 
 For quick prototyping, load the font by inluding this in HTML.
 
 ```html
-<link rel="stylesheet" 
-      href="node_modules/apis-font/fonts/font.css">
+<link rel="stylesheet" href="node_modules/apis-font/fonts/font.css" />
 ```
 
 Alternatively copy the files to a folder outside node_modules.
 
 ## More
 
-To see all the available CDN files go to 
+To see all the available CDN files go to
 
 https://unpkg.com/apis-font/
